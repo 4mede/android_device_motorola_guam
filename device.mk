@@ -26,6 +26,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.bengal
 
+# Keylayouts
+PRODUCT_PACKAGES += \
+    gpio-keys.kl
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
