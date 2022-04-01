@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_guam.mk
+    $(LOCAL_DIR)/aosp_guam.mk

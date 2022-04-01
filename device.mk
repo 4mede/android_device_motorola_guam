@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-derp
+    $(LOCAL_PATH)/overlay-custom
 
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 29
@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 # Signing
-$(call inherit-product, vendor/derp/signing/keys/common.mk)
+$(call inherit-product, vendor/pixelos-priv/config/common.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
