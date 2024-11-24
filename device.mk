@@ -21,6 +21,12 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
 
+# Moto Camera 2
+TARGET_MOTCAMERA2 := whitney
+TARGET_USES_MOTCAMERA2 := true
+
+$(call inherit-product, vendor/motorola/MotCamera2/motcamera2.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
