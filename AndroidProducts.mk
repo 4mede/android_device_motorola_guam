@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_guam.mk
+    $(LOCAL_DIR)/aosp_guam.mk
